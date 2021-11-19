@@ -1,0 +1,56 @@
+MODULO HTML5, CSS3 - ÍNICIO 17/11/21
+
+MO1 - Primeiros Passos
+M02 - Deixando as coisas mais bonitas
+M03 - Colocando um protótipo no ar
+M04 - Aprofundando os conhecimentos
+M05 - Novas tecnologias
+
+
+Bibliografia 
+
+HTML5 (Mark Pilgrim);
+Flexbox in CSS (Estelle Weyl);
+CSS - Guia Definitivo & Grid Layout in CSS. (Eric Meyer);
+
+HTML5 & CSS3 (Elizabeth Castro e Bruce Hyslop);
+HTML & CSS (Jon Duckett);
+HTML & CSS (Elizabeth Robson e Erick Freeman);
+
+
+Design, Fontes e Cores:
+
+Curso de design gráfico (David Dabner e outros);
+Design (Bob e Maggie Gordon);
+A psicologia das cores (Eva Heller);
+Pensar com tipos (Ellen Lupton).
+
+
+	Diferença entre JS, CSS e HTML
+
+CSS - Folhas de estilo em cascata (estilo, design)
+HTML - Linguagem de marcação em hipertexto (conteúdo)
+JS - Interações (Menus, animações, pop-ups)
+
+CSS:
+
+h1(seletor do título)
+font-family: Arial;
+----Declaração----- = Propriedade + valor
+font-family = Propriedade
+Arial = Valor
+
+Estrutura básica
+
+! > sugestão = esqueleto base html
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0"> Abrir o site sem zoom
+	<title></title>
+	<body>
+	Conteúdo
+	</body>
+	</head>
+</html>
