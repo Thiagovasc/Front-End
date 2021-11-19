@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 008</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Utilizando semântica sempre!</h2>
+
+    <h3>Negrito</h3>
+    <p><strong>Aqui </strong>temos a forma correta, cuja qual se preocupa com o significado e não apenas com a forma de colocar algo em destaque/negrito</p>
+    <p><b>Aqui </b>temos a forma incorreta/ultrapassada</p>
+
+    <h3>Itálico</h3>
+    <p> <em>Forma correta de enfatizar algo </em>  </p>
+    <p><i> Forma incorreta/ultrapassada</i></p>
+
+    <h3>Marcação</h3>
+    <p>
+    <mark>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore odit hic similique pariatur omnis laborum delectus porro cumque facere, eius non laudantium quidem dignissimos, aliquam soluta? Beatae laborum necessitatibus tempore.</mark>
+    </p>
+
+    <h3>Código</h3>
+    <p>
+        <code>
+            while True:
+            for i in (1,50,1):
+                print(i)
+        </code>
+        <!-- Tabulações e espaçamentos serão considerados e respresentados da forma que foram escritos, utilizando a tag pre-->
+    </p>
+    <p>
+        <pre> 
+            <code>
+    n1 = int(input("Nota 1: "))
+    n2 = int(input("Nota 2:"))
+    media = (n1 + n2)/2
+
+    if media >= 6:
+        print(f"Aprovado com média: {media}")
+    if media >= 4 and media <=5.9:
+        print(f"Aluno em recuperação,média: {media}, provas dia 22/10")
+    else:
+        print(f"Reprovado com média: {media}")
+            </code>
+        </pre>
+    </p>
+
+    <h3>Texto Sublinhado</h3>
+    <p>Aqui temos um <ins>texto sublinhado</ins> da forma correta.</p>
+    <p>Aqui temos um <u>texto sublinhado</u> de uma forma obsoleta. </p>
+
+    <h3>Citação simples</h3>
+    <p>
+        <q>A razão vos é dada para discernir o bem do mal</q>
+    </p>
+
+    <h3>Citação completa</h3>
+    <p>De acordo com Joel Santana: </p>
+    <blockquote cite="https://www.youtube.com/watch?v=iewQ45wJ7JA">
+        Mai equipe pray very naice di fairest taime
+    </blockquote>   
+    
+    <h3>Abreviações</h3>
+    <p>No momento estou estudando <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> e JS, o trio de ferro do desenvolvimento o web</p>
+
+</body>
+</html>
