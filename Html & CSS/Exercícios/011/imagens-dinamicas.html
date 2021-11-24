@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 11</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas, áudios e vídeos</h1>
+    <p>
+        Atualmente os sites são acessados em diferentes dispositivos e se faz necessário "edições" para que os conteúdos sejam mostrados adequadamente em cada dispositivo, ou seja, é necessário responsividade.
+    </p>
+    <p>
+        Utilizando a tag &lt;picture&gt; e a tag &lt;source&gt; é possível configurar qual imagem deve aparece de acordo com o tamanho da página.
+
+        <ul>
+            <li>
+                o atributo <em>media="(max ou min-width: )</em>  definimos o tamanho maximo a ser considerado para carregar a imagem adequada. 
+            </li>
+            <li>
+                o atributo <em>srcset</em> indicará a imagem que será carregada quando o tamanho indicado no atributo <em>media</em> for atingido
+            </li>
+            <li>
+                o atributo <em>type</em> indica o media type do arquivo (.png, .jpeg, .mp4)
+            </li>
+        </ul> 
+    </p>
+
+   <p>
+    Algoritmo de exemplo
+       <pre>
+<code>
+    &lt;picture&gt;
+        &lt;source media="(max ou min-width: tamanho)" srcset="caminho para o arquivo" type="image/png" &gt;
+        &lt;img src="" alt=""&gt;
+    &lt;/picture&gt;
+</code>
+       </pre>
+   </p>
+    
+
+    
+</body>
+</html>
