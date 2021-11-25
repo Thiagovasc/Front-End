@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas, áudios e vídeos - Cap. 11</title>
+</head>
+<body>
+    <h1>Anotações áudios</h1>
+    <p>
+        Assim como a tag &lt;picture&gt; para utilizarmos áudios é necessário usar a tag &lt;audio&gt;
+    </p>
+    <p>
+        Referências: https://www.w3schools.com/html/html5_audio.asp
+    </p>
+
+    <p>
+        Atributos:
+        <ul>
+            <li><em>controls:</em> adiciona controles de mídia(play, pause e volume);</li>
+            <li><em>src:</em> indica o áudio a ser tocado e o type o tipo (ogg, mp3 e wav);</li>
+            <li><em>preload: </em> indica a forma que o arquivo será carregado
+            <ul type="square">
+                <li>metadata: apenas informações (nome, tamanho, tempo);</li>
+                <li>auto: carregará tudo;</li>
+                <li>none: não carregará nada até o usuário apertar o play.</li>
+            </ul></li>
+            <li>loop: o áudio será repetido infinitamente.</li>
+            <li>autoplay: indica a reprodução do áudio assim que a página é carregada;</li>
+        </ul>
+         
+         
+         
+        Formatos e tipos de mídia:
+        <ul>
+            <li> File format: ogg  - Media Type: audio/ogg</li>
+            <li> File format: mp3  - Media Type: audio/mpeg</li>
+            <li> File format: wav  - Media Type: audio/wav</li>
+        </ul>
+        Exemplo de algoritmo de áudio:
+    <pre>
+    <code>
+    <!--É bom ter o arquivo em diferentes extensões pois, se o navegador não conseguir abrir um, passa para o próximo.-->
+&lt;audio controls autoplay  loop&gt; 
+    &lt;source src="caminho-do-arquivo.extensão" preload="metadata" type="audio/ogg"&gt;
+    &lt;source src="caminho-do-arquivo.extensão" preload="metadata" type="audio/wav"&gt; 
+    &lt;source src="caminho-do-arquivo.extensão" preload="metadata" type="audio/mpeg"&gt;    
+&lt;/audio&gt;
+        
+    </code>
+    </pre>
+    </p>
+   
+    
+</body>
+</html>
