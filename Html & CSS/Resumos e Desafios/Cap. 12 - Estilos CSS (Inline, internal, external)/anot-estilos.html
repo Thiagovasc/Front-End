@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com estilo(s)!</title>
+</head>
+<body>
+    <h1>CSS - Cascade Style Sheets</h1>
+    <h2>A beleza do estilo e da organização</h2>
+    <p>
+        O conteúdo do seu site é o núcleo, a parte principal não é sábio ignorar o design, o estilo, sites mais bonitos, organizados, atraentes atraem mais público ou ao menos não espanta os que já acharam seu site.
+
+        <ul title="Formas de estilizar seu site" type="square">
+            <li>Inline style;</li>
+            <li>Internal style;</li>
+            <li>External style.</li>
+        </ul>
+    </p>
+    <p>
+        A 1ª técnica de aplicar estilos é a maneira <em>CSS Inline Style</em>, tal maneira é mais simples, não é errada nem obsoleta até então, mas é a mais simples e um tanto quanto ineficaz, esta forma consiste em aplicações pontuais, assim como foi feito no <strong>desafio 09</strong> 
+        <p>Exemplo: &lt;body background="blue"&gt;&lt;/body&gt;</p>
+        
+        
+    </p>
+
+    <p>
+        A 2ª técnica de aplicar estilos é o <em>Internal style</em>, onde se utiliza a tag &lt;style&gt;&lt;/style&gt; no <strong>head</strong> do documento html. 
+        <p>Exemplo:</p>
+        <pre>
+            <code>
+    &lt;style&gt;
+        body {
+            background-color: blue;
+            font-family: Arial, sans-serif, Helvetica;
+
+        }
+    &lt;/style&gt;
+            </code>
+        </pre>
+    <strong>Atenção:</strong> a tag style deve estar dentro do head do seu documento, a mesma pode até funcionar estando dentro de outra tag, mas não estará em conformidade com as determinações da w3c
+    </p>
+
+    <p>
+        A 3ª técnica de aplicar estilos é a <em>External styles</em>, a mais versátil, desta forma as formas de estilo não se misturam diretamente ao código html e são interligadas a partir da tag <em>link</em> que deverá ser colocada no <em>head</em>
+        <p>Obs: Coloca-se @charset "utf-8"; para evitar problemas com acentuação, comentários são feitos assim em css /* */</p>
+    </p>
+
+    
+</body>
+</html>
