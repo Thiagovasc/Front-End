@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*Configurações globais*/
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: linear-gradient(90deg, #008cff, #008060);  
+}
+
+
+/*Configurações do conteúdo principal*/
+main {
+    background-color: aqua;
+    margin: auto;
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+p {
+    text-align: justify;
+}
