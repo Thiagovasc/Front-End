@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-color: #941033;
+}
+
+main {
+    background-color: #E0D646;
+    margin: auto; 
+    width: 800px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+#principal {
+    text-align: center;
+    color: #E02F5D;
+}
+
+.topico {
+    text-align: right;
+    color: #19AFE0;
+}
+.texto {
+    text-align: justify;
+    text-decoration: #e0445b;
+}
+
+.texto-diferente {
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #450be6;
+}
