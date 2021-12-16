@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Modelo de caixas - Cap. 16</title>
+</head>
+<body>
+    <main>
+        <h1>Anotações</h1>
+
+        <p>O conceito <em>box model</em> ou modelo de caixas é baseado no aspecto que os elementos do HTML são especie de containers e/ou caixas e assim armazenam em seu interior o conteúdo ou outras caixas.
+        </p>
+        <p>Tal modelo de caixa é composto por:
+            <ul>
+                <li>Margin(margem);</li>
+                <li>Outline(contorno);</li>
+                <li>Border(borda);</li>
+                <li>Padding(preenchimento);</li>
+                <li>Conteúdo;</li>
+                <li>Height(altura);</li>
+                <li>Width(largura).</li>
+            </ul>
+
+            A imagem abaixo exemplifica o modelo, onde a distância entre o conteúdo e a borda é representado pelo <em>padding</em>, a borda esta em vermelho, outline em azul e o margin é a distância entre o outline e o "topo" do navegador.
+
+            <div class="imagem">
+                <img src="box-model.png" alt="modelo de caixa" width="200">
+            </div>
+        </p>
+
+        <h1>Tipos de caixa</h1>
+        <p>
+            <ul type="square">
+                <li>
+                    Box-level
+                    <ul>
+                        <li>div;</li>
+                        <li>h1-h6;</li>
+                        <li>main;</li>
+                        <li>header;</li>
+                        <li>nav;</li>
+                        <li>article;</li>
+                        <li>aside;</li>
+                        <li>footer;</li>
+                        <li>form;</li>
+                        <li>video.</li>
+                    </ul>
+                </li>        
+                <li>
+                    Inline-level
+                    <ul>
+                        <li>span;</li>
+                        <li>a;</li>
+                        <li>code</li>
+                        <li>small, strong;</li>
+                        <li>em;</li>
+                        <li>sup, sub;</li>
+                        <li>label;</li>
+                        <li>input;</li>
+                        <li>button;</li>
+                        <li>select.</li>
+                    </ul>
+
+                </li>
+            </ul>
+            <strong>Box-level</strong>: <em>Sempre</em> ocupa todo espaço da largura, se inicia em uma nova linha, pula uma linha para iniciar a próxima. <br>
+            <strong>Inline-level</strong>: <em>Não</em> ocupa a largura inteira do viewport, não quebra a linha, ocupa apenas o espaço que precisa
+        </p>
+    </main>
+    
+</body>
+</html>
