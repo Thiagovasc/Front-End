@@ -1,27 +1,36 @@
+/*CONFIGURAÇÕES GLOBAIS */
+
 @charset "utf-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+}
 
 * {
     margin: 0px;
     padding: 0px;
 }
 
+
 body {
-    background-color: #EBE5C5;
+    background-color: var(--cor1);
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
     height: 150px;
     background-image: -moz-linear-gradient(to bottom, #2CA060, #186D3E);
     padding: 40px;
-}
-
-.titulos-cabecalho {
-    text-align: center;
-    color: white;
-}
-
-.principal {
-    font-size: 3em;
-    margin-bottom: 20px;
 }
 
 nav > a {
@@ -34,11 +43,47 @@ a:hover {
     background-color: #2FA866;
 }
 
+.titulos-cabecalho {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: white;
+    text-shadow: grey solid;
+}
+
+.subtitulo-cabecalho {
+    text-align: center;
+}
+
+.principal {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#titulo-artigo {
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #186D3E;
+}
+
+h2 {
+    color: #186D3E;
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    background-image: -moz-linear-gradient(to right, #2ca06079, #28c97049);
+    padding-left: 2px;
+}
+
 main {
     margin: auto;
-    width: 800px;
+    max-width: 800px;
+    min-width: 400px;
     padding: 20px;
     background-color: white;
+}
+
+p {
+    padding: 5px 0 20px 0;
+    text-indent: 30px;
+    text-align: justify;
 }
 
 footer {
@@ -53,7 +98,19 @@ footer {
     margin: auto;
 }
 
-.video-android {
-    margin: auto;
-    width: 50%;
+.video {
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin: 0px -20px 15px -20px;
+    padding-bottom: 50%;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
 }
