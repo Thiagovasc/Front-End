@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #EBE5C5;
+}
+header {
+    height: 150px;
+    background-image: -moz-linear-gradient(to bottom, #2CA060, #186D3E);
+    padding: 40px;
+}
+
+.titulos-cabecalho {
+    text-align: center;
+    color: white;
+}
+
+.principal {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+nav > a {
+    margin-right: 3px;
+    color: #2FA866;
+}
+
+a:hover {
+    color: #186D3E;
+    background-color: #2FA866;
+}
+
+main {
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    background-color: white;
+}
+
+footer {
+    background-color: #186D3E;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.bugdroid {
+    display: block;
+    margin: auto;
+}
+
+.video-android {
+    margin: auto;
+    width: 50%;
+}
