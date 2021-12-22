@@ -21,6 +21,9 @@
     padding: 0px;
 }
 
+strong {
+    color: var(--cor4);
+}
 
 body {
     background-color: var(--cor1);
@@ -86,13 +89,6 @@ p {
     text-align: justify;
 }
 
-footer {
-    background-color: #186D3E;
-    text-align: center;
-    padding: 5px;
-    color: white;
-}
-
 .bugdroid {
     display: block;
     margin: auto;
@@ -112,5 +108,40 @@ footer {
     left: 5%;
     width: 90%;
     height: 90%;
+}
 
+.extra {
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.titulo-extra {
+    color: white;
+    background-color: var(--cor4);
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+p > .links {
+    color: var(--cor5);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.texto-final {
+    padding-top: 10px;
+}
+
+footer {
+    background-color: #186D3E;
+    text-align: center;
+    padding: 5px;
+    color: white;
 }
